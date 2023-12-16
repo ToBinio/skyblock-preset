@@ -1,0 +1,9 @@
+accessWidener v2 named
+
+accessible method net/minecraft/structure/StructureTemplateManager loadTemplateFromResource (Lnet/minecraft/util/Identifier;)Ljava/util/Optional;
+
+accessible class net/minecraft/client/gui/screen/world/WorldScreenOptionGrid
+accessible class net/minecraft/client/gui/screen/world/CreateWorldScreen$WorldTab
+accessible method net/minecraft/client/gui/screen/world/WorldCreator getWorldPreset (Lnet/minecraft/client/world/GeneratorOptionsHolder;Ljava/util/Optional;)Ljava/util/Optional;
+
+extendable class net/minecraft/world/gen/chunk/NoiseChunkGenerator

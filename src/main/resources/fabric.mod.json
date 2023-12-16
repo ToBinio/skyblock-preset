@@ -2,25 +2,30 @@
   "schemaVersion": 1,
   "id": "skyblock-preset",
   "version": "${version}",
-
   "name": "Skyblock Preset",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/tobia/skyblock-preset"
+  },
   "license": "MIT",
   "icon": "assets/skyblock-preset/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "skyblock-preset.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+      "tobinio.skyblockpreset.client.SkyblockPresetClient"
+    ],
+    "main": [
+      "tobinio.skyblockpreset.SkyblockPreset"
+    ]
+  },
+  "mixins": [
+    "skyblock-preset.mixins.json"
+  ],
+  "accessWidener" : "skyblock-preset.accesswidener",
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
